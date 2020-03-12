@@ -119,7 +119,7 @@ public class PasswordChecker
         }
         passwordIsNeverOk(s);*/
         PrintWriter write = new PrintWriter(new FileWriter("log.txt"));
-        for (int k = 0; k < 5; k++)
+        for (int k = 0; k < 1; k++)
         {
             if (password_is_valid(s))
             {
